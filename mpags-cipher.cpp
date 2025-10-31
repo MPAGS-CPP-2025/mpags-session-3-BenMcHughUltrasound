@@ -27,5 +27,13 @@ int main ()
     std::string myString {"Hi this is my string"}; // using the string include to make a string
     std::cout << myString << "\n"; // outputs a string to terminal with a newline after
 
+    int myIntToOperateOn{5};
+    double myDoubleToOperateOn{7.5};
+    std::cout << myIntToOperateOn * myDoubleToOperateOn << std::endl; // multiplication
+    std::cout << myDoubleToOperateOn/myIntToOperateOn <<std::endl; //double division
+    std::cout << myInt/myIntToOperateOn << std::endl; // integer division
+    char myChar = 'i'; // initial char 
+    myString[2] = myChar; // assign character 2 in myString to myChar
+    std::cout << myString << std::endl; // output to terminal
     return 0;
 }
